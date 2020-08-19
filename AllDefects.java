@@ -60,8 +60,8 @@ public class AllDefects extends HttpServlet {
         String y = "zxcv";
         String z = "z";
 
-       x = x.toString();
-	/*	if(x != null) {
+      // x = x.toString();
+		if(x != null) {
   	                x = x.toString();
   	            }
   	            else {
@@ -69,7 +69,7 @@ public class AllDefects extends HttpServlet {
   	            }
         y = y.toString();
         z.toString(); // BUG
-    }*/
+    }
 
     public void test_resource_leak() throws IOException {
         BufferedInputStream i = getInputStream();
