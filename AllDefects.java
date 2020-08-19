@@ -60,14 +60,14 @@ public class AllDefects extends HttpServlet {
         String y = "zxcv";
         String z = "z";
 
-      // x = x.toString();
-		if(x != null) {
+      x = x.toString();
+		/*if(x != null) {
   	                x = x.toString();
   	            }
   	            else {
   	                // error process
   	            }
-        y = y.toString();
+        y = y.toString();*/
         z.toString(); // BUG
     }
 
